@@ -37,7 +37,7 @@ const NavBar = () => {
         <header className="w-full h-auto bg-transparent overflow-x-hidden fixed z-50 top-0 left-0">
             <Slide direction="down">
                 <nav className={`w-full md:h-24 h-20 ${navBarColor ? "bg-white" : "bg-transparent"} lg:px-24 md:px-12 px-8 flex justify-between items-center`}>
-                    <Image as="a" href="/" className="md:h-20 h-8" image={Logo} alt="Logo" />
+                    <Image as="a" href="/navi-web" className="md:h-20 h-8" image={Logo} alt="Logo" />
                     <div className="lg:flex hidden items-center gap-20">
                         <ul className="flex items-center justify-center gap-8">
                             {
@@ -85,7 +85,7 @@ const NavBar = () => {
                 <div className={`w-[70%] h-screen bg-white flex flex-col justify-between items-center relative ${open ? "right-0" : "-right-[120vw]"} transition-all duration-500 ease-out delay-300`}>
                     <section className="w-full px-4 py-6 flex flex-col gap-16">
                         <div className="w-full flex justify-between items-center">
-                            <Image as="a" href="/" className="md:h-10 h-8" image={Logo} alt="Logo" />
+                            <Image as="a" href="/navi-web" className="md:h-10 h-8" image={Logo} alt="Logo" />
                             <div className="hamburger text-gray-950 cursor-pointer" onClick={handleToggle}>
                                 <ArrowCircleRight size={25} color="currentColor" weight="fill" />
                             </div>

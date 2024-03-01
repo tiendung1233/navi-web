@@ -13,7 +13,7 @@ const Footer = () => {
         <footer className="w-full flex flex-col bg-white">
             <section className="w-full h-auto grid lg:grid-cols-5 md:grid-cols-3 lg:px-20 md:px-12 px-6 py-16 gap-7 md:gap-4 lg:gap-0">
                 <div className="flex flex-col items-start gap-4">
-                    <Image className="w-28" image={logo} alt="Logo" as="a" href="/" />
+                    <Image className="w-28" image={logo} alt="Logo" as="a" href="/navi-web" />
                     <Text className="text-sm text-color4" as="p">
                         {FooterTexts.underLogoText}
                     </Text>
@@ -86,7 +86,7 @@ const Footer = () => {
                     <Text as="p" className="text-base font-light text-color4">
                         Discover Our App
                     </Text>
-                    <Image image={app} className="w-28" alt="App Download" as="a" href="/" />
+                    <Image image={app} className="w-28" alt="App Download" as="a" href="/navi-web" />
                 </div> */}
             </section>
             <Text className="text-center bg-color4 text-white text-xs py-6 font-light">

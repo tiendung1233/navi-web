@@ -1,26 +1,26 @@
 export const NavLinks = [
     {
         name: "Navi",
-        url: "/"
+        url: "/navi-web"
     },
     {
         name: "Contact",
-        url: "/"
+        url: "/navi-web"
     },
     {
         name: "Help",
-        url: "/"
+        url: "/navi-web"
     },
 ];
 
 export const NavButtons = [
     {
         name: "",
-        url: "/"
+        url: "/navi-web"
     },
     {
         name: "Signup",
-        url: "/"
+        url: "/navi-web"
     }
 
 ];
@@ -163,27 +163,27 @@ export const FooterTexts = {
         links: [
             {
                 name: "Destination",
-                url: "/"
+                url: "/navi-web"
             },
             {
                 name: "Hotels",
-                url: "/"
+                url: "/navi-web"
             },
             {
                 name: "Flights",
-                url: "/"
+                url: "/navi-web"
             },
             {
                 name: "Bookings",
-                url: "/"
+                url: "/navi-web"
             },
             {
                 name: "Login",
-                url: "/"
+                url: "/navi-web"
             },
             {
                 name: "Signup",
-                url: "/"
+                url: "/navi-web"
             }
         ]
     },
