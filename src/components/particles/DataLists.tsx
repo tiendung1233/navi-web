@@ -193,7 +193,7 @@ export const FooterTexts = {
            
             {
                 name: "Navi",
-                url: "/navi-web/"
+                url: "/"
             }
         ]
     },
@@ -202,11 +202,11 @@ export const FooterTexts = {
         links: [
             {
                 name: "Privacy Policy",
-                url: "/navi-web/privacy-policy"
+                url: "/privacy-policy"
             },
             {
                 name: "Terms of Service",
-                url: "/navi-web/terms-of-service"
+                url: "/terms-of-service"
             },
            
         ]

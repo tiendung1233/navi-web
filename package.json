@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tiendung1233.github.io/navi-web/",
+  "homepage": "https://www.navi.io.vn/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build --base=./",

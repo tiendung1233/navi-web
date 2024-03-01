@@ -24,9 +24,9 @@ function App() {
     <div className="w-full bg-white text-gray-950 font-poppins">
       <NavBar />
       <Routes>
-          <Route path="/navi-web/" element={<Home />} />
-          <Route path="/navi-web/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/navi-web/terms-of-service" element={<TermsService />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsService />} />
       </Routes>
       <Footer />
     </div>
